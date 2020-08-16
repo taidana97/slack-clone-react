@@ -1,0 +1,18 @@
+.welcome {
+  flex: 0.7;
+  flex-grow: 1;
+  display: grid;
+
+  place-items: center;
+}
+
+.welcome div img {
+  object-fit: contain;
+  margin-bottom: 40px;
+  height: 300px;
+  width: 300px;
+}
+
+.welcome div {
+  text-align: center;
+}
